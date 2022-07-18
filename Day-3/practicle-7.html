@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout -3</title>
+    <style type="text/css">
+        *{
+            font-size:22px;
+            font-weight:bold;
+        }
+        .logo
+            {
+            float: left ;
+            background-color: #ba68c8a6;
+            height:50px;
+            padding : 5px 15px 15px 15px;
+            width: 28%;
+            margin-bottom:-15px;
+            text-align : center;
+        }
+        .logo img{
+            width : 65px;
+            height : 63px;
+            border : 2px solid black;
+            border-radius: 50px;
+            justify-content: center;
+            margin : -4px;
+        }
+        .nav
+           {
+            background-color: #00838f; 
+            height:40px;
+            width: 67%;
+            padding : 20px 0px 10px 0px;
+            margin : 10px 12px 12px 519px;
+            /* padding-top:30px; */
+            text-align:center;
+            /* margin-bottom:12px; */
+        }
+        /* .nav ul{
+        overflow : auto;
+        } */
+        .nav li{
+        float : left;
+        list-style: none;
+        margin : -20px 65px 20px 20px;
+        }
+        .nav li a{
+        padding: 3px 3px;
+        text-decoration: none;
+        color: rgb(47, 81, 174);
+        }
+        .nav li a:hover{
+        color : rgb(243, 24, 133);
+        }
+        .header
+            {
+            height: 820px;
+            width:100%;
+            float:left;
+            padding-top: 20px; 
+            text-align:center;
+            margin-bottom:10px;
+        }
+        
+        .foot {
+            background-color : #d1c4e9;
+            text-align:center;
+            margin-top : 2px;
+            padding : 20px 0px;
+            display : flex;
+            justify-content: center;
+            height:33px;
+            width:100%;
+            
+        }
+        .box-1{
+            background-color: gray;
+            height : 180px;
+            margin-right : 3%;
+            width :22%;
+            float : left;
+        }
+    
+        .box-2{
+            background-color: gray;
+            height : 180px;
+            margin-right :3%;
+            width :23%;
+            float : left;
+        }
+        .box-3{
+            background-color: gray;
+            height : 180px;
+            margin-right : 3%;
+            width :22%;
+            float : left;
+        }
+        .box-4{
+            background-color: gray;
+            height : 180px;
+            width :22%;
+            float : left;
+        }
+        .box-5{
+            background-color: gray;
+            height : 180px;
+            margin-top: 2%;
+            margin-right :3%;
+            width :22%;
+            float : left;
+        }
+        .box-6{
+            background-color: gray;
+            height : 180px;
+            margin-right :3%;
+            margin-top: 2%;
+            width :23%;
+            float : left;
+        }
+        .box-7{
+            background-color: gray;
+            height : 180px;
+            margin-right : 3%;
+            margin-top: 2%;
+            width :22%;
+            float : left;
+        }
+        .box-8{
+            background-color: gray;
+            height : 180px;
+            margin-top: 2%;
+            width :22%;
+            float : left;
+        }
+        .box-9{
+            background-color: gray;
+            height : 180px;
+            margin-top: 2%;
+            margin-right :3%;
+            width :22%;
+            float : left;
+        }
+        .box-10{
+            background-color: gray;
+            height : 180px;
+            margin-right :3%;
+            margin-top: 2%;
+            width :23%;
+            float : left;
+        }
+        .box-11{
+            background-color: gray;
+            height : 180px;
+            margin-right : 3%;
+            margin-top: 2%;
+            width :22%;
+            float : left;
+        }
+        .box-12{
+            background-color: gray;
+            height : 180px;
+            margin-top: 2%;
+            width :22%;
+            float : left;
+        }
+        .box-13{
+            background-color: gray;
+            height : 180px;
+            margin-top: 2%;
+            margin-right :3%;
+            margin-bottom : 2%;
+            width :22%;
+            float : left;
+        }
+        .box-14{
+            background-color: gray;
+            height : 180px;
+            margin-right :3%;
+            margin-top: 2%;
+            margin-bottom : 2%;
+            width :23%;
+            float : left;
+        }
+        .box-15{
+            background-color: gray;
+            height : 180px;
+            margin-right : 3%;
+            margin-top: 2%;
+            margin-bottom : 2%;
+            width :22%;
+            float : left;
+        }
+        .box-16{
+            background-color: gray;
+            height : 180px;
+            margin-top: 2%;
+            margin-bottom : 2%;
+            width :22%;
+            float : left;
+        }
+
+        .aside
+            {
+            height:600px;
+            width:100%;
+            margin-bottom:10px;
+        }
+        .aside-1
+            {
+            width: 31%;
+            margin-right:2%;
+        }
+        .aside-2
+            {
+                width:32%;
+            }
+        .aside-3{
+               float : right;
+               width : 33%;
+               margin-left : 2%;
+
+        }
+        .aside div{
+            float:left;
+            height:320px;
+            padding-top:280px;
+            text-align:center;
+            background-color: #2f51ae70;
+        }
+        /* .foot */
+           /* background-color : #d1c4e9; */
+            /* {
+            height:33px;
+            width:100%;
+            padding-top:7px;
+            text-align:center;
+            margin-bottom:10px;
+        } */
+    </style>
+    
+</head>
+<body>
+    <div>
+        <div class="logo">
+            <!-- <img src="picture(4).jpg"> -->
+        </div>
+        <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="https://www.google.co.in/" target="_blank">Search</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+        </div>
+        <div class="header">
+            <div class="box-1">
+                <img src="icon.jpg" alt="icon" height=180px; width=100%;>
+            </div>
+            <div class="box-2">
+                box-2
+            </div>
+            <div class="box-3">
+                box-3
+            </div>
+            <div class="box-4">
+                box-4
+            </div>
+            <div class="box-5">
+                box-5
+            </div>
+            <div class="box-6">
+                box-6
+            </div>
+            <div class="box-7">
+                box-7
+            </div>
+            <div class="box-8">
+                box-8
+            </div>
+            <div class="box-9">
+                box-9
+            </div>
+            <div class="box-10">
+                box-10
+            </div>
+            <div class="box-11">
+                box-11
+            </div>
+            <div class="box-12">
+                box-12
+            </div>
+            <div class="box-13">
+                box-13
+            </div>
+            <div class="box-14">
+                box-14
+            </div>
+            <div class="box-15">
+                box-15
+            </div>
+            <div class="box-16">
+                box-16
+            </div>
+            
+        </div>
+        <div class="aside">
+            <div class="aside-1">
+                Box-1
+            </div>
+            <div class="aside-2">
+                Box-2
+            </div>
+            <div class="aside-3">
+                Box-3
+            </div>
+        </div>
+        <div class="foot">
+            Footer
+        </div>
+    </div>

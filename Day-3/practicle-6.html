@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout -2</title>
+    <style type="text/css">
+        *{
+            font-size:22px;
+            font-weight:bold;
+        }
+        .logo
+            {
+            float: left ;
+            background-color: #ba68c8a6;
+            height:50px;
+            padding : 5px 15px 15px 0px;
+            width:30%;
+            margin-bottom:-15px;
+            text-align : center;
+        }
+        .logo img{
+            width : 65px;
+            height : 63px;
+            border : 2px solid black;
+            border-radius: 50px;
+            justify-content: center;
+            margin : -4px;
+        }
+        .nav
+           {
+            background-color: #00838f; 
+            height:40px;
+            width: 67%;
+            padding : 20px 10px 10px 0px;
+            margin : 10px 12px 12px 530px;
+            /* padding-top:30px; */
+            text-align:center;
+            /* margin-bottom:12px; */
+        }
+        /* .nav ul{
+        overflow : auto;
+        } */
+        .nav li{
+        float : left;
+        list-style: none;
+        margin : -20px 65px 20px 20px;
+        }
+        .nav li a{
+        padding: 3px 3px;
+        text-decoration: none;
+        color: rgb(47, 81, 174);
+        }
+        .nav li a:hover{
+        color : rgb(243, 24, 133);
+        }
+        .header
+            {background-color:  #d1c4e9;
+            height:90px;
+            width:100%;
+            padding-top:60px;
+            text-align:center;
+            margin-bottom:10px;
+        }
+        .aside
+            {
+            height:600px;
+            width:100%;
+            margin-bottom:10px;
+        }
+        .aside-1
+            {
+            width: 31%;
+            margin-right:2%;
+        }
+        .aside-2
+            {
+                width:32%;
+            }
+        .aside-3{
+               float : right;
+               width : 33%;
+               margin-left : 2%;
+
+        }
+        .aside div{
+            float:left;
+            height:320px;
+            padding-top:280px;
+            text-align:center;
+            background-color: #2f51ae70;
+        }
+        .foot
+           {background-color : #d1c4e9;
+            height:33px;
+            width:100%;
+            padding-top:7px;
+            text-align:center;
+            margin-bottom:10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <div class="logo">
+            <img src="icon.jpg">
+        </div>
+        <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="icon.jpg" target="_blank">Search</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+        </div>
+        <div class="header">
+            header
+        </div>
+        <div class="aside">
+            <div class="aside-1">
+                Box-1
+            </div>
+            <div class="aside-2">
+                Box-2
+            </div>
+            <div class="aside-3">
+                Box-3
+            </div>
+        </div>
+        <div class="foot">
+            Footer
+        </div>
+    </div>
