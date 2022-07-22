@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts</title>
+
+</head>
+<body>
+    <title>Demo Layout 1</title>
+		
+		<style type="text/css">
+			*{font-size:22px;font-weight:bold;}
+			.logo
+                {background-color: #f8bbd0;
+                height:50px;padding-top:20px;
+                width:98%;
+                padding-left:2%;
+                margin-bottom:10px;
+                text-align : center;
+            }
+			.nav,.foot
+               {background-color: #d1c4e9; 
+                height:38px;
+                width:100%;
+                padding-top:30px;
+                text-align:center;
+                margin-bottom:10px;
+            }
+            /* .nav ul{
+            overflow : auto;
+            } */
+            .nav li{
+            float : left;
+            list-style: none;
+            margin : -32px 40px 20px 10px;
+            }
+            .nav li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(47, 81, 174);
+            }
+            .nav li a:hover{
+            color : rgb(243, 24, 133);
+            }
+			.header
+                {background-color: rgb(73, 160, 180);
+                height:90px;
+                width:100%;
+                padding-top:60px;
+                text-align:center;
+                margin-bottom:10px;
+            }
+			.aside
+                {
+                height:600px;
+                width:100%;
+                margin-bottom:10px;
+            }
+			.aside-1
+                {
+                width:28%;
+                margin-right:2%;
+            }
+			.aside-2
+                {
+                    width:70%;
+                }
+			.aside div{
+                float:left;
+                height:320px;
+                padding-top:280px;
+                text-align:center;
+                background-color: #f8bbd0;
+            }
+            .foot
+               {background-color : #d1c4e9;
+                height:33px;
+                width:100%;
+                padding-top:7px;
+                text-align:center;
+                margin-bottom:10px;
+            }
+		</style>
+		
+	</head>
+	<body>
+		<div>
+			<div class="logo">
+				Logo
+			</div>
+			<div class="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+			</div>
+			<div class="header">
+				header
+			</div>
+			<div class="aside">
+				<div class="aside-1">
+					Side Bar
+				</div>
+				<div class="aside-2">
+					Body Area
+				</div>
+			</div>
+			<div class="foot">
+				Footer
+			</div>
+		</div>
+</body>
+</html>
